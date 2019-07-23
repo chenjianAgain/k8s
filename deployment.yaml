@@ -10,10 +10,10 @@ spec:
   template:
     metadata:
       labels:
-        app: tomcat2
+        app: tomcat
     spec:
       containers:
-      - name: tomcat
+      - name: tomcat2
         image: tomcat:9.0
         ports:
         - containerPort: 8080
